@@ -1,0 +1,104 @@
+<html>
+
+<head>
+   
+    <title>Javascript</title>
+
+</head>
+
+<body>
+
+
+    <button onclick="alert('Hi shahanaz!')">Click Me!</button>
+    <script type="text/javascript">
+    alert("Page Is Loded!");
+      </script>
+      
+    <hr>
+
+ <p id="text">Hello world!</p>
+<script type="text/javascript">
+
+// This is a one line comment.
+/*
+This is a multi line comment.
+*/
+ document.getElementById("text").innerHTML= "Hello shanu!";
+</script>
+ <hr> 
+  <p id="text">Hello world!</p>
+ <button id="myButton">Change text</button>
+<script type="text/javascript">
+     document.getElementById("myButton").onclick = function() {
+     alert("Button Clicked");
+           } 
+        </script>
+     
+
+
+
+ <hr>
+ <p id="text1">Good morning!</p>
+ <button id="Button1">Change text1</button>
+
+ <p id="text2">Very good morning</p>
+ <button id="Button2">Change text2</button>
+
+ <p id="text3">javascript..</p>
+ <button id="Button3">Change text3</button>
+
+ <p id="text4"></p>
+ <button id="Button4">Click for new</button>
+
+ <p id="text5">This is for styling</p>
+ <button id="Button5">Click for styling</button>
+
+ <p id="text6">This is for coloring</p>
+ <button id="Button6">Click for color</button>
+
+ <p id="text7">This text will disappear</p>
+ <button id="Button7">Click to disappear</button>
+
+                 <script type="text/javascript">
+
+         //change text from good morning to good afternoon.....
+
+     document.getElementById("Button1").onclick = function() {
+     document.getElementById("text1").innerHTML="Good afternoon!";
+           }
+          //same as aboue...........to Good evining 
+     document.getElementById("Button2").onclick = function() {
+     document.getElementById("text2").innerHTML= "Good evining!";
+         }
+         //modify text...
+     document.getElementById("Button3").onclick = function() {
+     document.getElementById("text3").innerHTML= "I think..."+ document.getElementById("text3").innerHTML +"...is awesome!";
+        }
+         // new text appears...
+     document.getElementById("Button4").onclick = function() {
+     document.getElementById("text4").innerHTML="<h1>New paragraph!</h1>";
+       }
+       // fontsize styling.....
+     document.getElementById("Button5").onclick = function() {
+     document.getElementById("text5").style.fontSize ="50px";
+       }
+      //styl coloring....
+     document.getElementById("Button6").onclick = function() {
+     document.getElementById("text6").style.color ="red";
+       }
+      //text disappear....
+     document.getElementById("Button7").onclick = function() {
+     document.getElementById("text7").style.display="none";
+       }
+       
+ </script>
+
+ <hr> 
+ 
+
+
+
+
+
+</body>
+</html> 

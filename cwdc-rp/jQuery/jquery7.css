@@ -1,0 +1,44 @@
+
+
+     #circle1{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: green;
+        margin: 10px;
+     }
+
+     #circle2{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: yellow;
+        margin: 10px;
+     }
+     #circle3{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color:black;
+        margin: 10px;
+     }
+
+     #circle4{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color:blueviolet;
+        margin: 10px;
+     }
+
+     #circle5{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: magenta;
+        margin: 10px;
+     }
+
+
+
+ 

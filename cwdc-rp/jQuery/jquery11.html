@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>jquery</title>
+   
+    <script type="text/javascript"src="jquery.min.js"></script> 
+    <style>
+
+     #circle{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: brown;
+        margin: 10px;
+     }
+
+     #square1{
+        width: 150px;
+        height: 150px;
+        background-color:red;
+        margin: 10px;
+     }
+
+     #square2{
+        width: 150px;
+        height: 150px;
+        background-color:peru;
+        margin: 10px;
+     }
+
+     #hiddenText{
+        display: none;
+     }
+
+
+ </style>
+
+</head>
+<body>
+    <P id="text">THIS IS SOME TEXT!..</P>
+    
+    <button id="toggle">Toggle Text</button>
+  
+    <script type="text/javascript">
+
+    $("#toggle").click(function(){
+
+    if($("#text").css("display") == "none"){
+
+        $("#text").fadeIn(2000);
+
+    }else{
+
+        $("#text").fadeOut(2000);
+    }
+
+});
+
+
+
+
+
+
+       
+
+
+</script>
+</body>
+</html>
